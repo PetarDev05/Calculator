@@ -12,7 +12,7 @@ function on() {
   });
 
   document.querySelector('.js-eval').addEventListener('click', () => {
-    calculation = eval(calculation);
+    calculation = math.evaluate(calculation);
     display.innerHTML = calculation;
   });
 
